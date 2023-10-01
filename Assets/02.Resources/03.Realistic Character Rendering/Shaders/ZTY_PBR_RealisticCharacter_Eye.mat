@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZTY_PBR_RealisticCharacter_Eye
+  m_Shader: {fileID: 4800000, guid: 30b261cfb2413dd4e95a72d77e1e7323, type: 3}
+  m_ValidKeywords:
+  - _DIRECTDIFFUSE
+  - _DIRECTSPECULAR
+  - _INDIRECTDIFFUSE
+  - _INDIRECTSPECULAR
+  m_InvalidKeywords:
+  - _SH
+  - _ZWRITE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: c2b6363eb66bd8b488da05003bff512b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisHeightMap:
+        m_Texture: {fileID: 2800000, guid: b7818b2c1217e34489f67d47e9c5fd1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisHeightNormalMap:
+        m_Texture: {fileID: 2800000, guid: 1dfa29f86ccc7ff42a8430a0aef7fa56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisMap:
+        m_Texture: {fileID: 2800000, guid: d724166fa0124754696e84070ed8619d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisNormalMap:
+        m_Texture: {fileID: 2800000, guid: bde9b454fc62c0a4dac88d34349a432a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSLutMap:
+        m_Texture: {fileID: 2800000, guid: 8b63aa19566dab140a27a764eb5135a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScleraMap:
+        m_Texture: {fileID: 2800000, guid: c2b6363eb66bd8b488da05003bff512b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScleraNormalMap:
+        m_Texture: {fileID: 2800000, guid: 927694d9b235aa345be1ab6e9d931e8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ViewDirectionNormalMap:
+        m_Texture: {fileID: 2800000, guid: 1dfa29f86ccc7ff42a8430a0aef7fa56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOStrength: 1
+    - _CausticPower: 0.15
+    - _CausticScale: 5
+    - _CorneaRoughness: 0.01
+    - _CorneaSpecular: 0.3
+    - _CullMode: 2
+    - _DIRECTDIFFUSE: 1
+    - _DIRECTSPECULAR: 1
+    - _DirectDiffuseStrength: 1
+    - _DirectSpecularStrength: 1
+    - _EMISSION: 0
+    - _INDIRECTDIFFUSE: 1
+    - _INDIRECTSPECULAR: 1
+    - _IOR: 1.5
+    - _IndirectDiffuseStrength: 1
+    - _IndirectRotation: 200
+    - _IndirectSpecularStrength: 1
+    - _IrisDepth: 1
+    - _IrisDepthScale: 1.45
+    - _IrisNormalStrength: 0.1
+    - _IrisRadius: 0.15
+    - _LimbusPower: 3
+    - _LimbusScale: 1
+    - _MetallicStrength: 0
+    - _NormalStrength: 1
+    - _PupilScale: 0.85
+    - _RoughnessStrength: 0.5
+    - _SH: 1
+    - _ScaleByCenter: -1.61
+    - _ScleraNormalStrength: 0.3
+    - _ScleraRoughness: 0.3
+    - _ScleraSpecular: 0.5
+    - _ScleraTilling: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _IrisColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ScleraColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

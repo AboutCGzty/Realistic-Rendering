@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: EyeRefraction
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor v1.9.1.5\n// Available at the
+    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19105\nNode;AmplifyShaderEditor.WorldNormalVector;6;-754.9696,-137.4902;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.ViewDirInputsCoordNode;7;-740.9696,11.50978;Inherit;False;World;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionInput;1;-711.3029,-233.4901;Inherit;False;UV;2;0;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.FunctionInput;8;-706.9696,159.5099;Inherit;False;IOR;1;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;9;-720.9696,239.5099;Inherit;False;IrisRadius;1;2;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;10;-710.9696,319.5099;Inherit;False;IrisDepth;1;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.TransformDirectionNode;12;-773.9696,407.5099;Inherit;False;Tangent;World;False;Fast;False;1;0;FLOAT3;0,0,0;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionInput;11;-992.9696,406.5099;Inherit;False;EyeDirection;3;4;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.VertexTangentNode;13;-737.9696,565.5099;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionOutput;4;-39.47578,39.27136;Inherit;False;False;-1;IrisConcavity;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-39.61895,-51.92375;Inherit;False;True;-1;IrisUV;0;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.CustomExpressionNode;3;-441.3333,-48.5;Inherit;False;
+    ;7;File;10;True;UV;FLOAT2;0,0;In;;Inherit;False;True;NormalDir;FLOAT3;0,0,0;In;;Inherit;False;True;ViewDir;FLOAT3;0,0,0;In;;Inherit;False;True;IOR;FLOAT;0;In;;Inherit;False;True;IrisUVRadius;FLOAT;0;In;;Inherit;False;True;IrisDepth;FLOAT;0;In;;Inherit;False;True;EyeDirection;FLOAT3;0,0,0;In;;Inherit;False;True;WorldTangent;FLOAT3;0,0,0;In;;Inherit;False;True;IrisUV;FLOAT2;0,0;Out;;Inherit;False;True;IrisConcavity;FLOAT;0;Out;;Inherit;False;EyeRefraction;False;False;0;31b9dda012e559642a8ad943851eaa92;True;11;0;FLOAT;0;False;1;FLOAT2;0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT3;0,0,0;False;8;FLOAT3;0,0,0;False;9;FLOAT2;0,0;False;10;FLOAT;0;False;3;FLOAT;0;FLOAT2;10;FLOAT;11\nWireConnection;12;0;11;0\nWireConnection;4;0;3;11\nWireConnection;0;0;3;10\nWireConnection;3;1;1;0\nWireConnection;3;2;6;0\nWireConnection;3;3;7;0\nWireConnection;3;4;8;0\nWireConnection;3;5;9;0\nWireConnection;3;6;10;0\nWireConnection;3;7;12;0\nWireConnection;3;8;13;0\nASEEND*/\n//CHKSM=410BD76C0DBCD17F6CDAA717AE398AFAC06D6375"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_headerStyle: 0
+  m_headerColor: {r: 1, g: 0.4, b: 0, a: 1}
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0
+  m_url: 
